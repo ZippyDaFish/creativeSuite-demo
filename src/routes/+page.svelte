@@ -115,8 +115,45 @@
 </section>
 
 <!-- Capabilities -->
- <section class="w-full min-h-screen p-16 flex flex-col items-center bg-[var(--color-surface)]">
+<section class="w-full min-h-[66vh] p-16 flex flex-col items-center bg-[var(--color-surface)] text-center space-y-12">
+    <div class="max-w-2xl space-y-4">
+        <h2 class="text-3xl font-semibold">What You Can Build</h2>
+        <p class="text-lg opacity-80">
+            Coral Studio allows you to create production-ready projects with large library of ready-made assets and tools.
+        </p>
+    </div>
 
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl w-full text-left">
+        <div class="space-y-3 p-6 rounded-[var(--radius-lg)] border border-black/10">
+            <h3 class="text-xl font-semibold">Landing Pages</h3>
+            <p class="opacity-80">Use our modern UI to quickly launch landing pages for your products.</p>
+        </div>
+
+        <div class="space-y-3 p-6 rounded-[var(--radius-lg)] border border-black/10">
+            <h3 class="text-xl font-semibold">Web Apps</h3>
+            <p class="opacity-80">Easily develop dashboards and SaaS interfaces with our pre-made templates.</p>
+        </div>
+
+        <div class="space-y-3 p-6 rounded-[var(--radius-lg)] border border-black/10">
+            <h3 class="text-xl font-semibold">E-commerce</h3>
+            <p class="opacity-80">Start selling quickly with our product pages and checkout systems.</p>
+        </div>
+
+        <div class="space-y-3 p-6 rounded-[var(--radius-lg)] border border-black/10">
+            <h3 class="text-xl font-semibold">Mobile UI</h3>
+            <p class="opacity-80">App-ready components designed for small screens. Be mobile-friendly easily.</p>
+        </div>
+
+        <div class="space-y-3 p-6 rounded-[var(--radius-lg)] border border-black/10">
+            <h3 class="text-xl font-semibold">Design Systems</h3>
+            <p class="opacity-80">Keep things consistent with our templateed design systems.</p>
+        </div>
+
+        <div class="space-y-3 p-6 rounded-[var(--radius-lg)] border border-black/10">
+            <h3 class="text-xl font-semibold">Client Projects</h3>
+            <p class="opacity-80">Ship faster with reusable, commercial-ready assets.</p>
+        </div>
+    </div>
 </section>
 
 <!-- Offer -->
