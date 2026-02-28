@@ -2,7 +2,7 @@
  <section class="w-full min-h-screen p-16 flex flex-col items-center justify-center bg-[var(--color-bg)]">
     <h3 class="text-2xl mb-8">Coral Studio</h3>
     <h1 class="text-5xl">Your Creativity Kit</h1>
-    <p class="text-lg mb-8">Get unlimited access to all our products for only $24.99/mo.</p>
+    <p class="text-lg mb-8 text-[var(--color-text-alt)]">Get unlimited access to all our products for only $24.99/mo.</p>
     <a href="#shop" class="inline-block btn-primary px-8 py-3 rounded-[var(--radius-md)] 
             font-semibold transition-all duration-200 ease-out hover:bg-[var(--color-primary-hover)] 
             hover:shadow-md active:shadow-sm">
@@ -11,15 +11,43 @@
 </section>
 
 <!-- About the Product -->
- <section class="w-full min-h-[66vh] p-16 flex flex-col items-center justify-center bg-[var(--color-surface)] text-center space-y-6">
+<section class="w-full min-h-[66vh] p-16 flex flex-col items-center justify-center bg-[var(--color-surface)] text-center space-y-8">
+    <div class="max-w-3xl space-y-6">
+        <h2 class="text-3xl font-semibold">About Coral Studio</h2>
+        <p class="text-lg opacity-80">
+            Coral Studio is an all-in-one creative toolkit built to help designers,
+            developers, and content creators ship faster without sacrificing quality.
+            Every asset is crafted by professionals to be commercial ready for your use.
+        </p>
+        <p class="text-lg opacity-80">
+            From UI components and templates to full design systems, our library
+            gives you everything you need to go from idea to launch in record time.
+        </p>
+    </div>
 
+    <div class="w-[50vw] flex justify-evenly">
+        <div class="space-y-2 border border-black/10 rounded-[var(--radius-lg)] w-40 h-30 flex flex-col justify-center">
+            <h3 class="text-2xl font-bold">500+</h3>
+            <p class="opacity-70">Premium assets</p>
+        </div>
+
+        <div class="space-y-2 border border-black/10 rounded-[var(--radius-lg)] w-40 h-30 flex flex-col justify-center">
+            <h3 class="text-2xl font-bold">Monthly</h3>
+            <p class="opacity-70">New content drops</p>
+        </div>
+
+        <div class="space-y-2 border border-black/10 rounded-[var(--radius-lg)] w-40 h-30 flex flex-col justify-center">
+            <h3 class="text-2xl font-bold">24/7</h3>
+            <p class="opacity-70">Creator support</p>
+        </div>
+    </div>
 </section>
 
 <!-- Packages -->
 <section class="w-full min-h-[66vh] p-16 flex flex-col items-center justify-center bg-[var(--color-bg)] text-center space-y-12">
     <div>
         <h2 class="text-3xl font-semibold">Choose Your Plan</h2>
-        <p class="text-lg opacity-80">Simple pricing. No hidden fees.</p>
+        <p class="text-lg text-[var(--color-text-alt)]">Simple pricing. No hidden fees.</p>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl w-full">
 
