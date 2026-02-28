@@ -5,7 +5,7 @@
     <p class="text-lg mb-8">Get unlimited access to all our products for only $24.99/mo.</p>
     <a href="#shop" class="inline-block btn-primary px-8 py-3 rounded-[var(--radius-md)] 
             font-semibold transition-all duration-200 ease-out hover:bg-[var(--color-primary-hover)] 
-            hover:-translate-y-0.5 hover:shadow-md active:translate-y-0 active:shadow-sm">
+            hover:shadow-md active:shadow-sm">
         Get Started
     </a>
 </section>
@@ -16,8 +16,74 @@
 </section>
 
 <!-- Packages -->
- <section class="w-full min-h-[66vh] p-16 flex flex-col items-center justify-center bg-[var(--color-bg)] text-center space-y-6">
+<section class="w-full min-h-[66vh] p-16 flex flex-col items-center justify-center bg-[var(--color-bg)] text-center space-y-12">
+    <div>
+        <h2 class="text-3xl font-semibold">Choose Your Plan</h2>
+        <p class="text-lg opacity-80">Simple pricing. No hidden fees.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl w-full">
 
+        <!-- Basic -->
+        <div class="border border-black/10 rounded-[var(--radius-lg)] p-8 flex flex-col space-y-6">
+            <h3 class="text-xl font-semibold">Basic</h3>
+            <p class="text-4xl font-bold">$9<span class="text-base font-normal opacity-70">/mo</span></p>
+
+            <ul class="text-left space-y-2 text-base opacity-80">
+                <li>✓ Access to core products</li>
+                <li>✓ Monthly updates</li>
+                <li>✓ Personal use license</li>
+                <li>✕ Commercial use</li>
+            </ul>
+
+            <a href="#shop"
+                class="mt-auto inline-block btn-primary px-6 py-3 rounded-[var(--radius-md)] font-semibold transition-all duration-200 ease-out
+                    hover:bg-[var(--color-primary-hover)] hover:shadow-md active:shadow-sm">
+                Get Basic
+            </a>
+        </div>
+
+        <!-- Pro (Featured) -->
+        <div class="border-2 border-[var(--color-primary)] rounded-[var(--radius-lg)] p-8 flex flex-col space-y-6 relative scale-105 shadow-lg">
+            <span class="absolute top-4 right-4 text-xs font-semibold px-3 py-1 rounded-full bg-[var(--color-primary)] text-white">
+                Most Popular
+            </span>
+
+            <h3 class="text-xl font-semibold">Pro</h3>
+            <p class="text-4xl font-bold">$24.99<span class="text-base font-normal opacity-70">/mo</span></p>
+
+            <ul class="text-left space-y-2 text-base opacity-80">
+                <li>✓ Unlimited product access</li>
+                <li>✓ New assets every month</li>
+                <li>✓ Commercial use license</li>
+                <li>✓ Priority support</li>
+            </ul>
+
+            <a href="#shop"
+                class="mt-auto inline-block btn-primary px-6 py-3 rounded-[var(--radius-md)] font-semibold transition-all duration-200 ease-out
+                    hover:bg-[var(--color-primary-hover)] hover:shadow-md active:shadow-sm">
+                Get Pro
+            </a>
+        </div>
+
+        <!-- Unlimited -->
+        <div class="border border-black/10 rounded-[var(--radius-lg)] p-8 flex flex-col space-y-6">
+            <h3 class="text-xl font-semibold">Unlimited</h3>
+            <p class="text-4xl font-bold">$49<span class="text-base font-normal opacity-70">/mo</span></p>
+
+            <ul class="text-left space-y-2 text-base opacity-80">
+                <li>✓ Everything in Pro</li>
+                <li>✓ Team collaboration</li>
+                <li>✓ Early access to new drops</li>
+                <li>✓ Dedicated support</li>
+            </ul>
+
+            <a href="#shop"
+                class="mt-auto inline-block btn-primary px-6 py-3 rounded-[var(--radius-md)] font-semibold transition-all duration-200 ease-out
+                    hover:bg-[var(--color-primary-hover)] hover:shadow-md active:shadow-sm">
+                Get Unlimited
+            </a>
+        </div>
+    </div>
 </section>
 
 <!-- Capabilities -->
@@ -48,7 +114,7 @@
     </ul>
     <a href="#shop" class="inline-block btn-primary px-8 py-3 rounded-[var(--radius-md)] 
             font-semibold transition-all duration-200 ease-out hover:bg-[var(--color-primary-hover)] 
-            hover:-translate-y-0.5 hover:shadow-md active:translate-y-0 active:shadow-sm">
+            hover:shadow-md active:shadow-sm">
         Start Your Subscription
     </a>
 
