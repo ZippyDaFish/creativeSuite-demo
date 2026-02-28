@@ -26,7 +26,31 @@
 </section>
 
 <!-- Offer -->
- <section class="w-full min-h-[20vh] p-16 flex flex-col items-center justify-center bg-[var(--color-bg)] text-center space-y-6">
+<section class="w-full min-h-[20vh] p-16 flex flex-col items-center justify-center bg-[var(--color-bg)] text-center space-y-6">
+
+    <h2 class="text-3xl font-semibold">One Simple Plan</h2>
+
+    <p class="text-lg max-w-2xl">
+        Unlock every Coral Studio product and future releases
+        with a single monthly subscription.
+    </p>
+
+    <div class="flex flex-col items-center space-y-2">
+        <span class="text-5xl font-bold">$24.99</span>
+        <span class="text-sm opacity-70">per month - cancel anytime</span>
+    </div>
+
+    <ul class="text-left max-w-md space-y-2 text-base">
+        <li>✓ Unlimited product access</li>
+        <li>✓ New assets added every month</li>
+        <li>✓ Commercial use license</li>
+        <li>✓ Priority support</li>
+    </ul>
+    <a href="#shop" class="inline-block btn-primary px-8 py-3 rounded-[var(--radius-md)] 
+            font-semibold transition-all duration-200 ease-out hover:bg-[var(--color-primary-hover)] 
+            hover:-translate-y-0.5 hover:shadow-md active:translate-y-0 active:shadow-sm">
+        Start Your Subscription
+    </a>
 
 </section>
 
