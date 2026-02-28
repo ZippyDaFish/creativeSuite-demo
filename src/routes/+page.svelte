@@ -26,7 +26,7 @@
 </section>
 
 <!-- Offer -->
-<section class="w-full min-h-[20vh] p-16 flex flex-col items-center justify-center bg-[var(--color-bg)] text-center space-y-6">
+<section class="w-full p-16 flex flex-col items-center justify-center bg-[var(--color-bg)] text-center space-y-6">
 
     <h2 class="text-3xl font-semibold">One Simple Plan</h2>
 
@@ -55,6 +55,40 @@
 </section>
 
 <!-- Why Us -->
- <section class="w-full min-h-screen p-16 flex flex-col items-center bg-[var(--color-surface)]">
+<section class="w-full min-h-[50vh] p-16 flex flex-col items-center bg-[var(--color-surface)] text-center">
+    <h2 class="text-3xl font-semibold mb-12">Why Choose Coral Studio?</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl w-full">
+        <!-- Feature 1 -->
+        <div class="flex flex-col items-center space-y-4">
+            <div class="w-14 h-14 flex items-center justify-center rounded-full bg-[var(--color-primary)]/10">
+                <span class="text-2xl"></span>
+            </div>
+            <h3 class="text-xl font-semibold">Unlimited Access</h3>
+            <p class="text-base opacity-80 max-w-xs">
+                Get every product, update, and future release with one subscription.
+            </p>
+        </div>
 
+        <!-- Feature 2 -->
+        <div class="flex flex-col items-center space-y-4">
+            <div class="w-14 h-14 flex items-center justify-center rounded-full bg-[var(--color-primary)]/10">
+                <span class="text-2xl"></span>
+            </div>
+            <h3 class="text-xl font-semibold">Made for Creators</h3>
+            <p class="text-base opacity-80 max-w-xs">
+                Carefully crafted professionals assets ready for you to use anywhere.
+            </p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="flex flex-col items-center space-y-4">
+            <div class="w-14 h-14 flex items-center justify-center rounded-full bg-[var(--color-primary)]/10">
+                <span class="text-2xl"></span>
+            </div>
+            <h3 class="text-xl font-semibold">Commercial Ready</h3>
+            <p class="text-base opacity-80 max-w-xs">
+                Use everything in personal and client projects with no extra licensing fees.
+            </p>
+        </div>
+    </div>
 </section>
